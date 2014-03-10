@@ -43,7 +43,7 @@ def unhide_involved_nodes(node):
 
 
 class FocusOnInvolvedNodes(bpy.types.Operator):
-    """Object Cursor Array"""
+    """Focus On Involved Nodes"""
     bl_idname = "nodes.focus_on_involved_nodes"
     bl_label = "Focus on involved nodes"
     bl_options = {'REGISTER', 'UNDO'}
